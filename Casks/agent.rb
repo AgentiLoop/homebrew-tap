@@ -2,8 +2,7 @@ cask "agent" do
   version "1.1.33.233"
   sha256 "32272119b869f06b8377341f3a3cc7894649bc799a1dd021b3fb56eb058e27db"
 
-  url "https://github.com/AgentiLoop/Agent/releases/download/v#{version}/Agent-v#{version}-macOS.dmg",
-      verified: "github.com/AgentiLoop/Agent/"
+  url "https://github.com/AgentiLoop/Agent/releases/download/v#{version}/Agent-v#{version}-macOS.dmg"
   name "Agent!"
   name "AgentiLoop Agent!"
   desc "Autonomous agent that codes, builds Xcode projects, drives apps and runs shells"
