@@ -6,7 +6,7 @@ cask "agent" do
       verified: "github.com/AgentiLoop/Agent/"
   name "Agent!"
   name "AgentiLoop Agent!"
-  desc "Native autonomous agent that codes, builds Xcode projects, drives Mac apps and runs shell tasks"
+  desc "Autonomous agent that codes, builds Xcode projects, drives apps and runs shells"
   homepage "https://agentiloop.ai/"
 
   livecheck do
@@ -15,8 +15,8 @@ cask "agent" do
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  depends_on macos: ">= :tahoe"
   depends_on arch: :arm64
+  depends_on macos: :tahoe
 
   app "Agent!.app"
 
