@@ -1,5 +1,8 @@
 # AgentiLoop Homebrew Tap
 
+🌐 **[agentiloop.ai](https://agentiloop.ai)**
+
+
 ```sh
 brew tap agentiloop/tap
 brew install --cask agent
